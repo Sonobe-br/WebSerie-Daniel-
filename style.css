@@ -371,6 +371,8 @@ a img.aligncenter {
     z-index: 0;
     opacity: .6;
 }
+
+/* Alterando a cor do texto principal do banner Home */
 .heading{
 	color: #fff;
 	display: table-cell;
@@ -379,7 +381,7 @@ a img.aligncenter {
 	z-index: 1;
 }
 .heading h1{
-	color: #ffffff;
+	color: #29d709;
 	font-weight: 700;
 	font-size: 62px;
 	text-transform: uppercase;
@@ -392,6 +394,8 @@ a img.aligncenter {
 .heading h3{
 	color: ffffff;
 }
+
+/* fim dos textos banner */
 
 .cd-words-wrapper {
   display: inline-block;
