@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>BAND HORÁRIO</title>
+        <link rel="stylesheet" type="text/css" href="./credenciais-style.css">
+    </head>
+    <body>
+        <div class="hello-js"><p>GREETING JAVASCRIPT</p></div>
+        
+        <div class="style-js">
+            <script language=javascript type="text/javascript">
+                const greet = new Date();
+                const newHours = greet.getHours();
+                document.write(greet);
+            
+                if (greet >= 0 && greet.getHours() < 5){
+                    document.write("Volte pra cama");
+                    document.write("Ainda é madrugada!");
+                    const calendario = document.querySelector(".style-js");
+                    calendario.style.background = "#7fff00"; //green 
+                }else if(greet >= 5 && greet.getHours() < 12){
+                    document.write(" Já amanheceu! Bom dia com muita alegria!");
+                    const calendario = document.querySelector(".style-js");
+                    calendario.style.background = "#0000ff"; //blue
+                    calendario.style.color = "#ffffff";
+                }else if(greet >= 12 && greet.getHours() < 18){
+                    document.write(" Boa tarde! Vamos almoçar?");
+                    const calendario = document.querySelector(".style-js");
+                    calendario.style.background =  "#ff4500"; //orangered
+                }else{
+                    document.write(" Já anoiteceu! É hora de codar 🎧 ");
+                    const calendario = document.querySelector(".style-js");
+                    calendario.style.background = "#800080"; //purple
+                    calendario.style.color = "#ffffff"; //white 
+                } 
+            </script>
+        </div>
+        <img id="foto-mack" src="./MackImg03.jpg">
+        <img id="logo-mack" src="./logo-mack.png">
+        <!-- <div class="form-wrapper">
+        <button type="button" onclick="javascript:window.close()">Discard</button>
+        </div> -->
+    </body>
+    <script src="./credenciais-script.js"></script>
+</html>
